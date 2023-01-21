@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+/* header */
+header {
+	position:fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+nav ul li a{
+   font-size:20px;
+   margin-right:50px;
+   color: rgb(0, 0, 0)!important;
+   font-weight:400px;
+}
+nav ul li:hover a{
+   color: #18CBA0 !important;
+   text-decoration: underline #18CBA0 ;
+}
+.logo{
+    margin-left:40px;
+}
+/* header end */
+
+section{
+    padding: 2rem 7%;
+}
+#home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("images/background.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.up{
+    height:50px;
+}
+
+.scroll{
+    background: url(images/Slide\ Animation\ bar\ BG.png);
+    height:140px;
+}
+.left{
+    background-color:#18CBA0 !important;
+    height: 65px !important;;
+    margin-top:60px !important;
+}
+marquee p{
+    font-size:30px;
+    margin-top:15px;
+    color:white;
+    letter-spacing:2px;
+    
+}
+#about  a.btn:hover{
+    background-color: #18CBA0 !important;
+}
+.fonts h1{
+    font-size:50px;
+}
+#service a{
+    color:black;
+}
+#service a:hover{
+    color:#18CBA0;
+}
+#work img:hover{
+    transform:scale(1);
+    border:2px solid #18CBA0;
+}
+#icon{
+    background-color:#18CBA0;
+    height:400px;
+}
+#icon i{
+    background-color:white;
+    color: #18CBA0;
+}
+#icon p{
+    margin-top:80px;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+}
+#icon h1{
+    color: rgb(255, 255, 255);
+}
+#icon img:hover{
+      transform:scale(1.1);
+}
+#contact{
+    background-color:#161D1B;
+}
+#contact p{
+    font-size:22px;
+    color:white;
+    font-weight: lighter;
+}
+#contact h1{
+    font-size:20px;
+    color:white;
+}
+#contact i{
+    color: #18CBA0;
+}
+.copyright{
+    color:#BFBFBF;
+    margin-top:15px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    section{
+        padding: 2rem;
+    }
+    .navbar{
+        background-color: white;
+    }
+    .logo1{
+        margin-left:-150px !important;
+    }
+    .navbar-toggle[type="button"]{
+        color: black;
+    }
+}
+@media  (max-width:768px) {
+    #home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+}
